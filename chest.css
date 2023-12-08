@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
+body{
+  
+  /* padding-left: 620px; */
+  /* padding-top: ; */
+position: relative;
+  margin-left: 300px;
+  margin-top: 1100px;
+  background: rgb(12, 1, 43);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.open {
+  font-size: 60px;
+  align-items: center;
+  margin-left: -90px;
+
+}
+
+@media(min-width:950px) { 
+
+  .top { 
+
+      grid-template-columns: repeat(4, 1fr); 
+  }
+}
